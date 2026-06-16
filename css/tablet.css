@@ -1,0 +1,28 @@
+.container {
+  width: 760px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+header,
+footer {
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column1,
+.column2 {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.column3 {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+}

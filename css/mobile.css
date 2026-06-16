@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+header,
+footer {
+  width: 100%;
+}
+
+main {
+  display: block;
+}
+
+.column1,
+.column2,
+.column3 {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px;
+}

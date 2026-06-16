@@ -1,0 +1,110 @@
+/* Paragraph styles */
+
+p {
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+}
+
+/* Heading styles */
+
+h1{
+    font-family: "Times New Roman", serif;
+    front-size: 23px
+}
+
+h2,
+h3 {
+    font-family: "Times New Roman", serif;
+    font-size: 19px;
+}
+
+/* Link styles */
+
+a:link {
+    color: black;
+    background-color: white;
+}
+
+a:visited {
+    color: grey;
+    background-color: white;
+}
+
+a:hover {
+    color: rgb(61, 61, 169);
+    background-color: white;
+}
+
+a:active {
+    color: rgb(66, 107, 66);
+    background-color: white;
+}
+
+/* Section styles */
+
+section {
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 1px dashed black;
+}
+
+/* About Me page specific sections */
+
+#my_background {
+    background-color: #c7d9ed;
+}
+
+#my_interests {
+    background-color: #c7d9ed;
+}
+
+
+/* More About Me page specific sections */
+
+#my_experience {
+    background-color: #c7d9ed
+}
+
+
+/* h2 elements inside sections */
+
+section h2 {
+    color: #003366;
+}
+
+
+/*profile_photo*/
+.profile_photo {
+    width: 1500px;
+    height: 1500px;
+    object-fit: cover;
+}
+
+
+/*js*/
+
+#coffee_image {
+    width: 300px;
+}
+
+#moving_note {
+    position: relative;
+    border: 1px solid #999999;
+    padding: 15px;
+    width: 300px;
+}
+
+
+.profile_photo {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+}
+
+.ux_image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
